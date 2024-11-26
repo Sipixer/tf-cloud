@@ -17,7 +17,7 @@ provider "aws" {
 
 
 resource "aws_s3_bucket" "example" {
-  bucket_prefix = "terraform-test-bucket-sylvain-test"
+  bucket_prefix = "terraform-test-bucket-sylv2-test"
 
   force_destroy = true
 }
