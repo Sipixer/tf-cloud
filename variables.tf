@@ -9,7 +9,7 @@ variable "namespace" {
 }
 
 variable "service_name" {
-  description = "A Docker image-compatible name for the service"
+  description = "A Docker image name for the service"
   type        = string
   default     = "graphql"
 }
